@@ -56,7 +56,7 @@ data:
     HOST = {{ template "gogs.database.host" . }}
     NAME = {{ template "gogs.database.name" . }}
     USER = {{ template "gogs.database.user" . }}
-    PASSWD = {{ template "gogs.database.password" . }}
+    PASSWORD = {{ template "gogs.database.password" . }}
     SSL_MODE = {{ template "gogs.database.ssl_mode" . }}
 
     [security]
